@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^1.10.0
+  flame_audio: ^2.1.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,6 +63,11 @@ flutter:
   assets:
   - assets/images/
   - assets/audio/
+
+  fonts:
+  - family: Game
+    fonts:
+    - asset: assets/fonts/Game.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
